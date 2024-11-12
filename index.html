@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Web avec Navbar, Slider et Articles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slider d'images -->
+    <section class="slider" id="home">
+        <div class="slides">
+            <div class="slide fade">
+                <img src="images/image1.jpg" alt="Image 1">
+            </div>
+            <div class="slide fade">
+                <img src="images/image2.jpg" alt="Image 2">
+            </div>
+            <div class="slide fade">
+                <img src="images/image3.jpg" alt="Image 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Zone d'articles -->
+    <section class="articles" id="articles">
+        <h2>Nos Articles</h2>
+        <div class="article">
+            <img src="articles/article1.jpg" alt="Article 1">
+            <div class="content">
+                <h3>Titre de l'article 1</h3>
+                <p>Résumé de l'article 1...</p>
+            </div>
+        </div>
+        <div class="article">
+            <img src="articles/article2.jpg" alt="Article 2">
+            <div class="content">
+                <h3>Titre de l'article 2</h3>
+                <p>Résumé de l'article 2...</p>
+            </div>
+        </div>
+        <div class="article">
+            <img src="articles/article3.jpg" alt="Article 3">
+            <div class="content">
+                <h3>Titre de l'article 3</h3>
+                <p>Résumé de l'article 3...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
